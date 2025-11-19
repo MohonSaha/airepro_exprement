@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Award, MessageCircle } from "lucide-react";
-import Rating from "./Rating";
+import Rating from "@/components/shared/Rating";
 
 export default function ReviewPanel({ type, review, name }) {
   const [expanded, setExpanded] = useState(false);

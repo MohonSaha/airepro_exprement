@@ -823,6 +823,7 @@ import {
 } from "lucide-react";
 import TimelineCard from "./TimelineCard";
 import { reviewDataByJobId } from "@/data/review/reviewByUserIdAndJobId";
+import Rating from "@/components/shared/Rating";
 
 export default function FreelancerRecurringJobReviews() {
   const [activeIndex, setActiveIndex] = useState(null);
